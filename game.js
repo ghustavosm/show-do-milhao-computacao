@@ -50,7 +50,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_57 = function() {
+(lib.CachedBmp_58 = function() {
 	this.initialize(ss["game_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -338,7 +338,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1 = new lib.CachedBmp_54();
 	this.instance_1.setTransform(18,16.75,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_57();
+	this.instance_2 = new lib.CachedBmp_58();
 	this.instance_2.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -1136,12 +1136,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/game_atlas_1.png?1616712172369", id:"game_atlas_1"},
-		{src:"images/game_atlas_2.png?1616712172369", id:"game_atlas_2"},
-		{src:"images/game_atlas_3.png?1616712172369", id:"game_atlas_3"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1616712172396", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1616712172396", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js?1616712172396", id:"an.TextInput"}
+		{src:"images/game_atlas_1.png?1616712843270", id:"game_atlas_1"},
+		{src:"images/game_atlas_2.png?1616712843270", id:"game_atlas_2"},
+		{src:"images/game_atlas_3.png?1616712843270", id:"game_atlas_3"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1616712843297", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1616712843297", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1616712843297", id:"an.TextInput"}
 	],
 	preloads: []
 };
