@@ -1,7 +1,7 @@
 # Show do Milhão: Computação
 
 <h3>Protótipo</h3>
-<p>🔗 <a href="http://gustavosilva.com.br/wp-content/uploads/sites/17/showdomilhao/game.html">Acesse através deste link.</a></p>
+<p>🔗 <a href="http://gustavosilva.com.br/wp-content/uploads/sites/17/showdomilhao/game.html" target="_blank">Acesse através deste link.</a></p>
 
 <h3>Sobre o Projeto</h3>
 <p>Jogo criado por alunos do Curso de Ciência da Computação da Universidade Estadual da
