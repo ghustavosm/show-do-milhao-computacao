@@ -1,0 +1,1 @@
+Nesta pasta serão armazenados os arquivos de som em formato .mp3
