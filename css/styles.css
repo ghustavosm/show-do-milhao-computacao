@@ -1,0 +1,11 @@
+#nomeJogador {
+    font-family: 'Ubuntu Medium';
+    padding: 12px 20px;
+    font-size: 26px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 8px;
+    text-align: center;
+    outline: transparent;
+}
