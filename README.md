@@ -14,8 +14,8 @@ apresentação do projeto.</p>
 <p>Todas as imagens e áudios foram retirados da internet e possuem direitos reservados ao
 Sistema Brasileiro de Televisão (SBT).</p>
 
-<p><b>Programação e Design de Interface:</b><br/>
+<p><b>Programação do Jogo e Design de Interface:</b><br/>
 Gustavo Silva Medeiros</p>
 
-<p><b>Banco de Dados e Elaboração das Perguntas:</b><br/>
+<p><b>API Externa, Banco de Dados e Elaboração das Perguntas:</b><br/>
 Lucas Martins Nunes</p>
