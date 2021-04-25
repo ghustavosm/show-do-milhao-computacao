@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"game_atlas_1", frames: [[965,1805,195,64],[866,661,282,98],[498,1524,931,64],[348,1661,298,53],[1878,1293,160,46],[498,1370,457,98],[0,661,864,282],[680,1470,160,46],[498,1470,180,46],[1779,1586,244,87],[0,378,1246,281],[0,0,1282,376],[1162,1811,202,53],[1868,1029,143,64],[1142,1067,143,64],[1878,1095,143,64],[1878,1161,134,64],[1878,1227,134,64],[957,1370,134,64],[1868,798,150,75],[1868,875,150,75],[1868,952,150,75],[1804,1741,179,75],[0,1752,179,75],[181,1782,179,75],[448,1727,199,69],[649,1727,199,69],[1142,1158,366,181],[850,1727,199,69],[1510,1158,366,181],[1051,1734,199,69],[0,1185,366,181],[1634,1818,130,64],[1766,1818,130,64],[1898,1818,130,64],[648,1661,240,64],[890,1661,240,64],[1768,1675,240,64],[571,945,285,75],[1194,1657,285,75],[1481,1657,285,75],[1194,1590,222,64],[0,1686,222,64],[224,1716,222,64],[1431,1586,346,69],[498,1590,346,69],[368,1187,366,181],[846,1590,346,69],[736,1187,366,181],[0,1615,346,69],[1104,1341,366,181],[362,1798,199,64],[1297,798,569,118],[563,1798,199,64],[1297,918,569,118],[764,1798,199,64],[0,945,569,118],[1252,1734,182,75],[1436,1734,182,75],[1620,1741,182,75],[957,1436,132,64],[1297,1038,569,118],[1366,1811,132,64],[0,1065,569,118],[1500,1818,132,64],[571,1067,569,118],[1284,0,716,558],[1472,1341,247,243],[1721,1341,247,243],[1248,560,788,236],[866,798,429,267],[0,1368,247,243],[249,1370,247,243]]},
+		{name:"game_atlas_1", frames: [[1670,1915,195,64],[866,661,282,98],[498,1524,931,64],[925,1738,298,53],[1878,1293,160,46],[498,1370,457,98],[0,661,864,282],[680,1470,160,46],[498,1470,180,46],[679,1732,244,87],[0,378,1246,281],[0,0,1282,376],[1225,1738,202,53],[1868,1029,143,64],[1142,1067,143,64],[1878,1095,143,64],[1878,1161,134,64],[1878,1227,134,64],[957,1370,134,64],[1868,798,150,75],[1868,875,150,75],[1868,952,150,75],[1087,1859,179,75],[609,1887,179,75],[0,1895,179,75],[287,1686,199,69],[224,1829,199,69],[1142,1158,366,181],[1391,1838,199,69],[1510,1158,366,181],[1592,1838,199,69],[0,1185,366,181],[382,1919,130,64],[790,1936,130,64],[922,1936,130,64],[0,1763,240,64],[242,1763,240,64],[925,1793,240,64],[571,945,285,75],[1027,1661,285,75],[0,1686,285,75],[1167,1793,222,64],[679,1821,222,64],[0,1829,222,64],[679,1590,346,69],[1027,1590,346,69],[368,1187,366,181],[0,1615,346,69],[736,1187,366,181],[679,1661,346,69],[1104,1341,366,181],[181,1900,199,64],[1297,798,569,118],[1268,1909,199,64],[1297,918,569,118],[1469,1909,199,64],[0,945,569,118],[1793,1838,182,75],[425,1842,182,75],[903,1859,182,75],[957,1436,132,64],[1297,1038,569,118],[348,1615,132,64],[0,1065,569,118],[1867,1915,132,64],[571,1067,569,118],[1431,1586,179,250],[1612,1586,179,250],[1793,1586,179,250],[1284,0,716,558],[1472,1341,247,243],[1721,1341,247,243],[1248,560,788,236],[866,798,429,267],[0,1368,247,243],[249,1370,247,243],[498,1590,179,250]]},
 		{name:"game_atlas_2", frames: [[1202,0,762,967],[0,681,1198,570],[0,1253,1205,535],[0,0,1200,679]]},
 		{name:"game_atlas_3", frames: [[0,902,1274,683],[0,0,1200,900]]}
 ];
@@ -43,7 +43,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_88 = function() {
+(lib.CachedBmp_92 = function() {
 	this.initialize(ss["game_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -519,6 +519,27 @@ lib.ssMetadata = [
 
 
 
+(lib._1pngCópia = function() {
+	this.initialize(ss["game_atlas_1"]);
+	this.gotoAndStop(66);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._2 = function() {
+	this.initialize(ss["game_atlas_1"]);
+	this.gotoAndStop(67);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._3 = function() {
+	this.initialize(ss["game_atlas_1"]);
+	this.gotoAndStop(68);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.background = function() {
 	this.initialize(ss["game_atlas_3"]);
 	this.gotoAndStop(1);
@@ -528,21 +549,21 @@ lib.ssMetadata = [
 
 (lib.barras_de_ouro = function() {
 	this.initialize(ss["game_atlas_1"]);
-	this.gotoAndStop(66);
+	this.gotoAndStop(69);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.cartas = function() {
 	this.initialize(ss["game_atlas_1"]);
-	this.gotoAndStop(67);
+	this.gotoAndStop(70);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.convidados = function() {
 	this.initialize(ss["game_atlas_1"]);
-	this.gotoAndStop(68);
+	this.gotoAndStop(71);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -556,28 +577,35 @@ lib.ssMetadata = [
 
 (lib.logouepbcomputacao = function() {
 	this.initialize(ss["game_atlas_1"]);
-	this.gotoAndStop(69);
+	this.gotoAndStop(72);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.logo = function() {
 	this.initialize(ss["game_atlas_1"]);
-	this.gotoAndStop(70);
+	this.gotoAndStop(73);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.placas = function() {
 	this.initialize(ss["game_atlas_1"]);
-	this.gotoAndStop(71);
+	this.gotoAndStop(74);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.pular = function() {
 	this.initialize(ss["game_atlas_1"]);
-	this.gotoAndStop(72);
+	this.gotoAndStop(75);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.rei = function() {
+	this.initialize(ss["game_atlas_1"]);
+	this.gotoAndStop(76);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -719,6 +747,28 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,465.5,32);
 
 
+(lib.g_tres_espadas = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Camada_1
+	this.instance = new lib._3();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,179,250);
+
+
 (lib.g_sobre = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -778,6 +828,28 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,432,188.3);
+
+
+(lib.g_rei_copas = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Camada_1
+	this.instance = new lib.rei();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,179,250);
 
 
 (lib.g_pular = function(mode,startPosition,loop,reversed) {
@@ -1141,6 +1213,28 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,637,341.5);
 
 
+(lib.g_dois_ouros = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Camada_1
+	this.instance = new lib._2();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,179,250);
+
+
 (lib.g_convidados = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -1282,6 +1376,28 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,1124,843);
+
+
+(lib.g_as_paus = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Camada_1
+	this.instance = new lib._1pngCópia();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,179,250);
 
 
 (lib.btn_voltar = function(mode,startPosition,loop,reversed) {
@@ -1699,6 +1815,65 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-142.2,-29.5,285.29999999999995,59.8);
 
 
+(lib.m_sorteio_cartas = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// timeline functions:
+	this.frame_58 = function() {
+		this.stop();
+	}
+	this.frame_118 = function() {
+		this.stop();
+	}
+	this.frame_178 = function() {
+		this.stop();
+	}
+	this.frame_238 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(58).call(this.frame_58).wait(60).call(this.frame_118).wait(60).call(this.frame_178).wait(60).call(this.frame_238).wait(1));
+
+	// Camada_1
+	this.instance = new lib.g_rei_copas("synched",0);
+	this.instance.setTransform(89.5,126,1,1,0,0,0,89.5,125);
+	this.instance.alpha = 0;
+
+	this.instance_1 = new lib.g_as_paus("synched",0);
+	this.instance_1.setTransform(89.5,126,1,1,0,0,0,89.5,125);
+	this.instance_1.alpha = 0;
+	this.instance_1._off = true;
+
+	this.instance_2 = new lib.g_dois_ouros("synched",0);
+	this.instance_2.setTransform(89.5,126,1,1,0,0,0,89.5,125);
+	this.instance_2.alpha = 0;
+	this.instance_2._off = true;
+
+	this.instance_3 = new lib.g_tres_espadas("synched",0);
+	this.instance_3.setTransform(89.5,126,1,1,0,0,0,89.5,125);
+	this.instance_3.alpha = 0;
+	this.instance_3._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({alpha:1},9).wait(39).to({startPosition:0},0).to({alpha:0},10).to({_off:true},1).wait(180));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(59).to({_off:false},0).to({alpha:1},10).wait(39).to({startPosition:0},0).to({alpha:0},10).to({_off:true},1).wait(120));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(119).to({_off:false},0).to({alpha:1},10).wait(39).to({startPosition:0},0).to({alpha:0},10).to({_off:true},1).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(179).to({_off:false},0).to({alpha:1},10).wait(39).to({startPosition:0},0).to({alpha:0},10).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,1,179,250);
+
+
 (lib.m_pressione_botao = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2044,6 +2219,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Camada_1
+	this.sorteioCartas = new lib.m_sorteio_cartas();
+	this.sorteioCartas.name = "sorteioCartas";
+	this.sorteioCartas.setTransform(487.5,455,1,1,0,0,0,89.5,125);
+
 	this.alternativa4 = new lib.btn_alternativa();
 	this.alternativa4.name = "alternativa4";
 	this.alternativa4.setTransform(282.5,692.75,1,1,0,0,0,282.5,45);
@@ -2136,14 +2315,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_2 = new lib.CachedBmp_89();
 	this.instance_2.setTransform(713.55,174.9,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_88();
+	this.instance_3 = new lib.CachedBmp_92();
 	this.instance_3.setTransform(593.45,29.8,0.5,0.5);
 
 	this.boxPergunta = new lib.g_box_pergunta("synched",0);
 	this.boxPergunta.name = "boxPergunta";
 	this.boxPergunta.setTransform(282.5,221.5,1,1,0,0,0,282.5,84.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.boxPergunta},{t:this.instance_3},{t:this.instance_2},{t:this.nomeParticipante},{t:this.convidados},{t:this.placas},{t:this.cartas},{t:this.pular},{t:this.instance_1},{t:this.textoPergunta},{t:this.instance},{t:this.tempoPergunta},{t:this.parar},{t:this.confirmar},{t:this.premioErrar},{t:this.premioParar},{t:this.premioAcertar},{t:this.alternativa1},{t:this.alternativa2},{t:this.alternativa3},{t:this.alternativa4}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.boxPergunta},{t:this.instance_3},{t:this.instance_2},{t:this.nomeParticipante},{t:this.convidados},{t:this.placas},{t:this.cartas},{t:this.pular},{t:this.instance_1},{t:this.textoPergunta},{t:this.instance},{t:this.tempoPergunta},{t:this.parar},{t:this.confirmar},{t:this.premioErrar},{t:this.premioParar},{t:this.premioAcertar},{t:this.alternativa1},{t:this.alternativa2},{t:this.alternativa3},{t:this.alternativa4},{t:this.sorteioCartas}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2215,6 +2394,14 @@ if (reversed == null) { reversed = false; }
 		self.ajudas;
 		self.premios;
 		self.bloqueiaClique;
+		
+		/*
+		 * Arrumar dificuldade
+		 * Tirar meu nome
+		 * Melhorar a primeira tela com o botão Jogar
+		 * Implementar placas, cartas e convidados
+		 * Verificar porque as vezes o jogo não abre direto e é preciso atualizar a página
+		 */
 		
 		self.frames = {
 			frameParticipante: 127,
@@ -2396,9 +2583,10 @@ if (reversed == null) { reversed = false; }
 			self.canalQuatroNovo = null;
 			self.bloqueiaClique = false;
 			self.fps = 30;
+			self.nome = '';
 			self.dificuldade = 'Fácil';
-			self.tempoFacil = 30; // ARRUMAR
-			self.tempoMedio = 30;
+			self.tempoFacil = 90; // ARRUMAR
+			self.tempoMedio = 60;
 			self.tempoDificil = 30;
 			self.premios = [[0, 0, 1000], [500, 1000, 2000], [1000, 2000, 3000], [1500, 3000, 4000], [2000, 4000, 5000], [2500, 5000, 10000], [5000, 10000, 20000], [10000, 20000, 30000], [15000, 30000, 40000], [20000, 40000, 50000], [25000, 50000, 100000], [50000, 100000, 200000], [100000, 200000, 300000], [150000, 300000, 400000], [200000, 400000, 500000], [0, 500000, 1000000]];
 			self.preload = new createjs.LoadQueue();
@@ -2448,7 +2636,7 @@ if (reversed == null) { reversed = false; }
 					entrouFrameParticipante = true;
 					self.selecionaDificuldade.texto.text = self.dificuldade;
 					$('#nomeJogador').focus();
-					$('#nomeJogador').val('Gustavo');
+					$('#nomeJogador').val(self.nome);
 					$('#nomeJogador').attr('autocomplete', 'off');
 					$('#nomeJogador').attr('placeholder', 'Qual o seu nome?');
 				} else if(getCurrentFrame() != self.frames.frameParticipante) {
@@ -2501,6 +2689,8 @@ if (reversed == null) { reversed = false; }
 					
 					self.perguntaAtual = self.sorteiaPergunta();
 					
+					self.displayPergunta.sorteioCartas.visible = false;
+					
 					self.displayPergunta.textoPergunta.text = self.perguntaAtual.pergunta;
 					
 					self.displayPergunta.alternativa1.display.numero.texto.text = 1;
@@ -2512,6 +2702,11 @@ if (reversed == null) { reversed = false; }
 					self.displayPergunta.alternativa2.display.texto.text = self.perguntaAtual.alternativas['2'];
 					self.displayPergunta.alternativa3.display.texto.text = self.perguntaAtual.alternativas['3'];
 					self.displayPergunta.alternativa4.display.texto.text = self.perguntaAtual.alternativas['4'];
+					
+					self.displayPergunta.alternativa1.visible = true;
+					self.displayPergunta.alternativa2.visible = true;
+					self.displayPergunta.alternativa3.visible = true;
+					self.displayPergunta.alternativa4.visible = true;
 					
 					alinhaTextoBox(self.displayPergunta.textoPergunta, {altura: 168.9, y: 137.35});
 					alinhaTextoBox(self.displayPergunta.alternativa1.display.texto, {altura: 90, y: 0});
@@ -2855,6 +3050,60 @@ if (reversed == null) { reversed = false; }
 				}
 			});
 			
+			self.displayPergunta.cartas.addEventListener('click', function(e) {
+				if(!self.bloqueiaClique) {
+					self.tocarCanalQuatro('click');
+					if(self.ajuda.cartas > 0) {
+						self.bloqueiaClique = true;
+						self.ajuda.cartas--;
+						self.displayPergunta.cartas.texto.text = self.ajuda.cartas;
+						self.tocarCanalDois(['cartas01', 'cartas02', 'cartas03', 'cartas04'][getRandomInt(0, 3)]);
+						
+						var promise = function () {
+							return new Promise(function(resolve, reject) {
+								var numeroCarta = getRandomInt(0, 3);
+								
+								var eliminadas = [];
+								while(eliminadas.length < numeroCarta) {
+									let perguntaSorteada = getRandomInt(1, 4);
+									if(perguntaSorteada != self.perguntaAtual.resposta && !eliminadas.includes(perguntaSorteada)) {
+										eliminadas.push(perguntaSorteada);
+									}
+								}
+								
+								self.displayPergunta.sorteioCartas.gotoAndPlay(numeroCarta*60);
+								self.displayPergunta.sorteioCartas.visible = true;
+								
+								setTimeout(function() {
+									self.displayPergunta.sorteioCartas.visible = false;
+								}, 2000);
+								
+								if(eliminadas.includes(1)) {
+									self.displayPergunta.alternativa1.visible = false;
+								}
+								if(eliminadas.includes(2)) {
+									self.displayPergunta.alternativa2.visible = false;
+								}
+								if(eliminadas.includes(3)) {
+									self.displayPergunta.alternativa3.visible = false;
+								}
+								if(eliminadas.includes(4)) {
+									self.displayPergunta.alternativa4.visible = false;
+								}
+								
+								resolve('complete');
+							});
+						}
+						
+						promise().then(function(resolve) {
+							self.bloqueiaClique = false;
+						});
+					} else {
+						self.tocarCanalDois('naoda');
+					}
+				}
+			});
+			
 			self.displayPergunta.pular.addEventListener('click', function(e) {
 				if(!self.bloqueiaClique) {
 					self.tocarCanalQuatro('click');
@@ -2909,6 +3158,7 @@ if (reversed == null) { reversed = false; }
 		
 		function gotoResultado() {
 			self.gotoAndPlay('Resultado');
+			self.pararCanalTres();
 			self.tocarCanalUm('temacompleto', 0.15, {interrupt: createjs.Sound.INTERRUPT_ANY, loop: -1});
 			if(self.score != 1000000) {
 				self.tocarCanalDois('tchau');
@@ -3157,12 +3407,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/game_atlas_1.png?1619336494621", id:"game_atlas_1"},
-		{src:"images/game_atlas_2.png?1619336494621", id:"game_atlas_2"},
-		{src:"images/game_atlas_3.png?1619336494621", id:"game_atlas_3"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1619336494674", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1619336494674", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js?1619336494674", id:"an.TextInput"}
+		{src:"images/game_atlas_1.png?1619375334188", id:"game_atlas_1"},
+		{src:"images/game_atlas_2.png?1619375334189", id:"game_atlas_2"},
+		{src:"images/game_atlas_3.png?1619375334189", id:"game_atlas_3"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1619375334250", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1619375334250", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1619375334250", id:"an.TextInput"}
 	],
 	preloads: []
 };
