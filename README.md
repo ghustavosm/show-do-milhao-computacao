@@ -17,5 +17,5 @@ Sistema Brasileiro de Televisão (SBT).</p>
 <p><b>Programação do Jogo e Design de Interface:</b><br/>
 Gustavo Silva Medeiros</p>
 
-<p><b>API Externa, Banco de Dados e Elaboração das Perguntas:</b><br/>
+<p><b>Banco de Dados, Seleção das Perguntas e Relatório:</b><br/>
 Lucas Martins Nunes</p>
